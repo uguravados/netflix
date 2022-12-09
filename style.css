@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flix{
+  color: red;
+}
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: bold;
+}
+p {
+  font-style: italic;
+  font-size: 27px;
+}
+html {
+  background-image: url(./netflix.jpg);
+}
+body {
+  color: white;
+
+  text-align: center;
+  margin: 1px auto;
+  width: fit-content;
+  padding: 1px 250px 1px 250px;
+  background: hsla(0, 0%, 0%, 0.3);
+}
+
+form {
+  text-align: left;
+  width: fit-content;
+  display: inline-block;
+  background: hsla(0, 0%, 0%, 0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label {
+  padding: 10px;
+  font-size: large;
+}
+
+.box{
+padding: 20px 33px 5px 150px;
+margin: 10px;
+width: 300px;
+}
+
+input {
+  padding: 12px;
+
+}
+
+
+.type {
+  padding: 12px;
+  width: 200px;
+}
+
+.send{
+  background-color: hsla(0, 73%, 48%, 0.4);
+  padding: 8px 40px 8px 40px;
+  margin-top: 22px;
+  margin-left: 75px;
+  font-size: larger;
+  border: 3px solid orangered;
+}
+.send:hover{
+  background-color: hsla(0, 73%, 48%, 0.9);
+cursor: pointer;
+color:white
+}
